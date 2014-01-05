@@ -1,4 +1,4 @@
-windows-dev-machine
+Windows development machine setup
 ===================
 
-Set up a windows machine for .NET development
+Set up a windows machine for .NET (Web) development using BoxStarter
