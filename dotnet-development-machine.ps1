@@ -15,6 +15,9 @@ cinstm javaruntime
 cinstm nodejs.install
 cinstm ruby
 
+#Web servers
+cinstm IIS-WebServerRole -source windowsfeatures
+
 #Web browsers
 cinstm GoogleChrome
 cinstm GoogleChrome.Canary
