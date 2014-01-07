@@ -1,4 +1,4 @@
-Windows development machine setup
+Windows machine setups
 ===================
 
-Set up a windows machine for .NET (Web) development using BoxStarter
+01-dotnet-development-machine - Set up a windows machine for .NET (Web) development using BoxStarter/Chocolatey
