@@ -34,7 +34,7 @@ cinstm dotPeek
 cinstm 7zip
 
 #Visual studio and plugins
-cinstm VisualStudio2013Professional
+cinstm VisualStudio2013Professional -InstallArguments "WebTools SQL"
 cinstm resharper
 Install-ChocolateyVsixPackage "VS Commands 2013" http://visualstudiogallery.msdn.microsoft.com/c6d1c265-7007-405c-a68b-5606af238ece/file/106247/14/SquaredInfinity.VSCommands.VS12.vsix
 Install-ChocolateyVsixPackage "Web Essentials 2013" http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361/file/105627/24/WebEssentials2013.vsix
