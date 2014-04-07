@@ -4,19 +4,19 @@ Update-ExecutionPolicy Unrestricted
 Enable-MicrosoftUpdate
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-#Windows enhancements and helpers
-cinstm classic-shell
-cinstm webpi
-
 #Runtimes and frameworks
 cinstm DotNet4.0
 cinstm DotNet4.5
 cinstm javaruntime
 cinstm nodejs.install
 cinstm ruby
+cinstm python
 
-#Web servers
-cinstm IIS-WebServerRole -source windowsfeatures
+#Windows enhancements and helpers
+cinstm classic-shell
+cinstm webpi
+cinstm ConEmu
+cinstm ransack
 
 #Web browsers
 cinstm GoogleChrome
@@ -27,9 +27,11 @@ cinstm safari
 #Browser plugins
 cinstm fiddler4
 
-#Utilities
+#Text editors
 cinstm sublimetext2
 cinstm SublimeText2.PackageControl -Version 1.6.3
+
+#Utilities
 cinstm dotPeek
 cinstm 7zip
 
@@ -45,7 +47,6 @@ cinstm kdiff3
 
 #Databases
 cinstm SqlServer2012Express
-cinstm mongodb
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula
