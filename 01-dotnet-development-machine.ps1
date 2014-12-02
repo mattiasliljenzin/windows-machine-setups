@@ -47,7 +47,7 @@ cinstm gitextensions
 cinstm kdiff3
 
 #Databases
-cinstm SqlServer2012Express
+#cinstm SqlServer2012Express
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula
