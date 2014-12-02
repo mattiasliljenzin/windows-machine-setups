@@ -7,6 +7,7 @@ Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFile
 #Runtimes and frameworks
 cinstm DotNet4.0
 cinstm DotNet4.5
+cinstm DotNet4.5.1
 cinstm javaruntime
 cinstm nodejs.install
 cinstm ruby
