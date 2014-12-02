@@ -5,50 +5,50 @@ Enable-MicrosoftUpdate
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 #Runtimes and frameworks
-cinstm DotNet4.0
-cinstm DotNet4.5
-cinstm DotNet4.5.1
-cinstm javaruntime
-cinstm nodejs.install
-cinstm ruby
-cinstm python
+cinst DotNet4.0
+cinst DotNet4.5
+cinst DotNet4.5.1
+cinst javaruntime
+cinst nodejs.install
+cinst ruby
+cinst python
 
 #Windows enhancements and helpers
-cinstm classic-shell
-cinstm webpi
-cinstm ConEmu
-cinstm ransack
+cinst classic-shell
+cinst webpi
+cinst ConEmu
+cinst ransack
 
 #Web browsers
-cinstm GoogleChrome
-cinstm GoogleChrome.Canary
-cinstm Firefox
-cinstm safari
+cinst GoogleChrome
+cinst GoogleChrome.Canary
+cinst Firefox
+cinst safari
 
 #Browser plugins
-cinstm fiddler4
+cinst fiddler4
 
 #Text editors
-cinstm SublimeText3
-cinstm SublimeText3.PackageControl
-cinstm vim
+cinst SublimeText3
+cinst SublimeText3.PackageControl
+cinst vim
 
 #Utilities
-cinstm dotPeek
-cinstm 7zip
+cinst dotPeek
+cinst 7zip
 
 #Visual studio and plugins
-cinstm VisualStudioCommunity2013
-cinstm resharper
-cinstm VS2013.VSCommands
-cinstm visualstudio2013-webessentials.vsix
+cinst VisualStudioCommunity2013
+cinst resharper
+cinst VS2013.VSCommands
+cinst visualstudio2013-webessentials.vsix
 
 #VCS
-cinstm gitextensions
-cinstm kdiff3
+cinst gitextensions
+cinst kdiff3
 
 #Databases
-#cinstm SqlServer2012Express
+#cinst SqlServer2012Express
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula
