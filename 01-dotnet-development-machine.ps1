@@ -28,8 +28,9 @@ cinstm safari
 cinstm fiddler4
 
 #Text editors
-cinstm sublimetext2
-cinstm SublimeText2.PackageControl -Version 1.6.3
+cinstm SublimeText3
+cinstm SublimeText3.PackageControl
+cinstm vim
 
 #Utilities
 cinstm dotPeek
