@@ -38,7 +38,7 @@ cinst dotPeek
 cinst 7zip
 
 #Visual studio and plugins
-cinst VisualStudioCommunity2013
+cinst VisualStudio2013Professional -InstallArguments "/Features:'WebTools SQL'"
 cinst resharper
 cinst VS2013.VSCommands
 cinst visualstudio2013-webessentials.vsix
