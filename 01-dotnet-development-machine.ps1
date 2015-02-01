@@ -31,7 +31,7 @@ cinst fiddler4
 #Text editors
 cinst SublimeText3
 cinst SublimeText3.PackageControl
-cinst vim
+#cinst markdownpad2
 
 #Utilities
 cinst dotPeek
