@@ -48,7 +48,7 @@ cinst gitextensions
 cinst kdiff3
 
 #Databases
-#cinst SqlServer2012Express
+#cinst sqlserver2014express
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula
