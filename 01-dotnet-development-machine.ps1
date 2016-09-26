@@ -14,16 +14,11 @@ cinst ruby
 cinst python
 
 #Windows enhancements and helpers
-cinst classic-shell
 cinst webpi
 cinst ConEmu
 cinst ransack
 
 #Web browsers
-cinst GoogleChrome
-cinst GoogleChrome.Canary
-cinst Firefox
-cinst safari
 
 #Browser plugins
 cinst fiddler4
@@ -38,10 +33,7 @@ cinst dotPeek
 cinst 7zip
 
 #Visual studio and plugins
-cinst VisualStudio2013Professional -InstallArguments "/Features:'WebTools SQL'"
-cinst resharper -Version 8.2.3000.5176
-cinst VS2013.VSCommands
-cinst visualstudio2013-webessentials.vsix
+
 
 #VCS
 cinst gitextensions
