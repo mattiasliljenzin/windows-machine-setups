@@ -1,7 +1,3 @@
-$Boxstarter.RebootOk=$true # Allow reboots?
-$Boxstarter.NoPassword=$false # Is this a machine with no login password?
-$Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
-
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
@@ -17,9 +13,7 @@ cinst kdiff3
 # Editors
 cinst visualstudiocode
 cinst SublimeText3
-
-# SQL
-cinst mssqlservermanagementstudio2014express
+cinst SublimeText3.PackageControl
 
 # NodeJS
 choco install nodejs.install
@@ -31,10 +25,12 @@ cinst 7zip
 choco install curl
 choco install windirstat
 
+# SQL
+cinst mssqlservermanagementstudio2014express
+
 # Visual Studio
 cinst VisualStudio2015Enterprise -y -InstallArguments WebTools
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Plugins
 cinst resharper
-cinst SublimeText3.PackageControl
