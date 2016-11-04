@@ -1,12 +1,10 @@
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-
 # Web browsers
 cinst GoogleChrome
 cinst GoogleChrome.Canary
 cinst Firefox
-cinst safari
 
 # VCS
 cinst git
