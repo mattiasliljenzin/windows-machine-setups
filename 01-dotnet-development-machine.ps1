@@ -1,46 +1,37 @@
-#Initial windows configuration
-
 Update-ExecutionPolicy Unrestricted
-Enable-MicrosoftUpdate
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-#Runtimes and frameworks
-cinst DotNet4.0
-cinst DotNet4.5
-cinst DotNet4.5.1
-cinst javaruntime
-cinst nodejs.install
-cinst ruby
-cinst python
 
-#Windows enhancements and helpers
-cinst webpi
-cinst ConEmu
-cinst ransack
+# Web browsers
+cinst GoogleChrome
+cinst GoogleChrome.Canary
+cinst Firefox
+cinst safari
 
-#Web browsers
-
-#Browser plugins
-cinst fiddler4
-
-#Text editors
-cinst SublimeText3
-cinst SublimeText3.PackageControl
-#cinst markdownpad2
-
-#Utilities
-cinst dotPeek
-cinst 7zip
-
-#Visual studio and plugins
-
-
-#VCS
+# VCS
+cinst git
 cinst gitextensions
 cinst kdiff3
 
-#Databases
-#cinst sqlserver2014express
+# Code editors
+cinst visualstudiocode
+cinst SublimeText3
+cinst visualstudio2015enterprise
 
-#Install windows updates
-Install-WindowsUpdate -AcceptEula
+# SQL
+cinst mssqlservermanagementstudio2014express
+
+# NodeJS
+choco install nodejs.install
+
+# Utilities
+cinst fiddler4
+cinst f.lux
+cinst 7zip
+choco install curl
+choco install windirstat
+
+# Plugins
+cinst resharper
+cinst SublimeText3.PackageControl
+
